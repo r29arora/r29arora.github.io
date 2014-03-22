@@ -1,0 +1,27 @@
+
+@font-face {
+	font-family: CaviarDreams;
+	src: url('font/CaviarDreams.ttf');
+}
+
+@font-face {
+	font-family: CaviarDreamsBold; 
+	src: url('font/Caviar_Dreams_Bold.ttf');
+}
+
+p.caviar_font {
+	font-family: CaviarDreams;
+}
+
+p.caviar_font_bold {
+	font-family: CaviarDreamsBold;
+}
+
+img.bg-img {
+	position:fixed;
+	left:0px;
+	top:0px;
+	width:100%;
+	opacity:0.9;
+	z-index:1;
+}
